@@ -1,0 +1,364 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #f9f9f9;
+	font-family: "Open Sans";
+	font-size: 14px;
+	color: #000;
+	line-height: 24px;
+	margin: 0;
+}
+
+/*-----------------------------------------------------------
+Global CSS
+-----------------------------------------------------------*/
+.border{
+	border: 1px solid #ff0000;
+	
+}
+
+.clear{
+	clear: both;
+}
+
+.section-padding{
+	padding: 80px 0;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+img{
+	max-width: 100%;
+}
+
+figure{
+	margin: 0;
+}
+
+.row{
+	overflow: hidden;
+}
+
+.col-3 {
+  float: left;
+  padding: 0 15px;
+  width: 25%;
+}
+
+.col-4 {
+  float: left;
+  padding: 0 15px;
+  width: 33.33%;
+}
+
+.col-6{
+	float: left;
+	padding: 0 15px;
+	width: 50%;
+}
+
+
+/*-----------------------------------------------------------
+Header CSS
+-----------------------------------------------------------*/
+header{}
+
+.logo{
+	float: left;
+}
+
+.main-menu{
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: outside none none;
+}
+
+nav ul li a {
+  color: #000;
+  display: block;
+  font-size: 14px;
+  padding: 30px 25px;
+  text-decoration: none;
+}
+
+nav ul li:hover a {
+	color: green;
+}
+
+
+/*-----------------------------------------------------------
+Banner CSS
+-----------------------------------------------------------*/
+#banner{
+	background: rgba(0, 0, 0, 0) url("../images/banner01.png") no-repeat scroll center center / cover ;
+	padding: 180px 0;
+	text-align: center;
+	height: 100%;
+}
+
+#banner h2{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+#banner h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+
+/*-----------------------------------------------------------
+Section Title CSS
+-----------------------------------------------------------*/
+.section-title{
+	text-align: center;
+}
+
+.section-title h2 {
+  color: #444444;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.section-title p {
+  color: #666666;
+}
+
+
+/*-----------------------------------------------------------
+Section Sub Title CSS
+-----------------------------------------------------------*/
+.section-sub-title{
+	padding: 20px 0;
+	text-align: center;
+}
+
+.section-sub-title h4 {
+  color: #444;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.section-sub-title-white{
+	padding: 20px 0;
+	text-align: center;
+}
+
+.section-sub-title-white h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+/*-----------------------------------------------------------
+Services CSS
+-----------------------------------------------------------*/
+#services{
+	text-align: center;
+}
+
+#services figure{
+	background-color: #fff;
+	padding: 15px;
+	border: 1px solid #ddd;
+}
+
+
+/*-----------------------------------------------------------
+Instagram CSS
+-----------------------------------------------------------*/
+#instagram{
+	background-color: #2c2c2c;
+	text-align: center;
+}
+
+#instagram figure{
+	position: relative;
+}
+
+#instagram figcaption {
+  background-color: #fff;
+  padding: 93px 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+#instagram figcaption h4{
+	color: #000;
+	font-size: 36px;
+}
+
+#instagram figure:hover figcaption{
+	display: block;
+	cursor: pointer;
+}
+
+#instagram .instagram-btn{
+	margin-top: 25px;
+}
+
+#instagram .instagram-btn a {
+  border: 1px solid #a6a6a6;
+  color: #a6a6a6;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+#instagram .instagram-btn i{
+	margin-right: 10px;
+}
+
+
+/*-----------------------------------------------------------
+Journal CSS
+-----------------------------------------------------------*/
+#journal{
+	text-align: center;
+}
+
+#journal figure {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+#journal figcaption h4 {
+  color: #444;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+#journal figcaption h6 {
+  color: #999999;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+#journal .journal-content {
+  color: #999999;
+  padding: 0 15px;
+  text-align: left;
+}
+
+#journal .journal-content a{
+  color: #999999;
+}
+
+
+/*-----------------------------------------------------------
+About CSS
+-----------------------------------------------------------*/
+#about {
+  padding: 30px 0 80px;
+}
+
+#about .section-sub-title{
+	text-align: left;
+	padding: 0;
+}
+
+#about .about-me img{
+	float: left;
+	margin-right: 25px;
+}
+
+#about .about-me p {
+  color: #666666;
+}
+
+#about .single-services {
+  margin-bottom: 25px;
+}
+
+#about .single-services i {
+  color: #28b8d8;
+  float: left;
+  font-size: 40px;
+  height: 100px;
+  margin-right: 25px;
+}
+
+#about .single-services h5 {
+  color: #444444;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+/*-----------------------------------------------------------
+Footer CSS
+-----------------------------------------------------------*/
+#footer-top{
+	background-color: #373737;
+}
+
+#footer-top h3 {
+  color: #f0f0f0;
+  text-transform: uppercase;
+}
+
+#footer-top p {
+  color: #f0f0f0;
+  font-size: 14px;
+}
+
+#footer-bottom {
+  background-color: #333333;
+  padding: 25px 0;
+}
+
+#footer-bottom .copyright p {
+  color: #ccc;
+  margin: 0;
+  padding-top: 10px;
+}
+
+#footer-bottom .social-icon{
+	float: right;
+}
+
+#footer-bottom .social-icon i {
+  border: 2px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  height: 35px;
+  line-height: 34px;
+  text-align: center;
+  width: 35px;
+  margin: 0 5px;
+}
+
+#footer-bottom .social-icon a:hover i {
+  border: 2px solid #000;
+  color: #000;
+}
